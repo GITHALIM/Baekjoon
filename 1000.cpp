@@ -1,12 +1,8 @@
-#include <iostream>
-
+#include <cstdio>
+using namespace std;
+int a,b;
 int main(){
-    int A = 0, B=0;
-    scanf("%d %d", &A, &B);
-    
-    A = A+B;
-    
-    std::cout<<A<<std::endl;
-    
+    scanf("%d %d", &a, &b);
+    printf("%d", a+b);
     return 0;
 }
